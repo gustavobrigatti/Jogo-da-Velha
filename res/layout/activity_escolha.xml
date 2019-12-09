@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/barco3"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="20dp" >
+
+    <TextView
+        android:id="@+id/tvJargao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Você está pronto para desafiar Odin?"
+        android:textColor="#FFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tvPlayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ibPlayer1"
+        android:layout_alignLeft="@+id/tvJargao"
+        android:layout_marginBottom="84dp"
+        android:layout_marginLeft="39dp"
+        android:text="Player 1"
+        android:textColor="#FFF"
+        android:textSize="15dp" />
+
+    <ImageButton
+        android:id="@+id/ibPlayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvPlayer1"
+        android:layout_below="@+id/tvJargao"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="169dp"
+        android:background="@drawable/arma1" />
+
+    <TextView
+        android:id="@+id/tvPlayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tvJargao"
+        android:layout_alignTop="@+id/tvPlayer1"
+        android:layout_marginRight="54dp"
+        android:text="Player 2"
+        android:textColor="#FFF"
+        android:textSize="15dp" />
+
+    <ImageButton
+        android:id="@+id/ibArma2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tvPlayer2"
+        android:layout_below="@+id/tvPlayer2"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/arma2" />
+
+</RelativeLayout>
